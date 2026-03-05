@@ -1,10 +1,6 @@
-# Macro Calc 😎
-
-
-
-Acts like a macro pad when plugged in (or connected via bluetooth?) and acts like a calculator when disconnected 🔥⚡️
-
+# Dart Board
 
 
 goo goo gaa gaa
+
 
