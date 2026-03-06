@@ -1034,20 +1034,20 @@
 		)
 	)
 	(junction
-		(at 33.02 40.64)
+		(at 118.11 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8142b7f9-c8a3-4362-96aa-2dd73db3c887")
 	)
 	(junction
-		(at 32.9955 43.18)
+		(at 118.0855 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cc7b9e3-9879-4200-8592-95f4a0d3e120")
 	)
 	(wire
 		(pts
-			(xy 30.48 35.56) (xy 36.83 35.56)
+			(xy 115.57 68.58) (xy 121.92 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1057,7 +1057,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 40.64) (xy 36.83 40.64)
+			(xy 118.11 73.66) (xy 121.92 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1067,7 +1067,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 40.64) (xy 33.02 40.64)
+			(xy 115.57 73.66) (xy 118.11 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1077,7 +1077,7 @@
 	)
 	(wire
 		(pts
-			(xy 32.9955 43.18) (xy 36.83 43.18)
+			(xy 118.0855 76.2) (xy 121.92 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1087,7 +1087,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 43.18) (xy 32.9955 43.18)
+			(xy 115.57 76.2) (xy 118.0855 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1097,7 +1097,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 38.1) (xy 36.83 38.1)
+			(xy 115.57 71.12) (xy 121.92 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1107,7 +1107,7 @@
 	)
 	(global_label "GPIO_0"
 		(shape bidirectional)
-		(at 30.48 35.56 180)
+		(at 115.57 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1117,7 +1117,7 @@
 		)
 		(uuid "342b2ded-e103-4ffd-bfde-abf05ba62d1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.7311 35.56 0)
+			(at 104.8211 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,7 +1129,7 @@
 	)
 	(global_label "GND"
 		(shape passive)
-		(at 30.48 43.18 180)
+		(at 115.57 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1139,7 +1139,7 @@
 		)
 		(uuid "34a29a33-354d-4de8-88ec-5d916e4664de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.7356 43.18 0)
+			(at 109.8256 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,7 +1151,7 @@
 	)
 	(global_label "V_3.3"
 		(shape passive)
-		(at 30.48 40.64 180)
+		(at 115.57 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1161,7 +1161,7 @@
 		)
 		(uuid "4fefcd9c-1f02-45d1-b9ca-8dc050362eef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.5261 40.64 0)
+			(at 108.6161 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1173,7 +1173,7 @@
 	)
 	(global_label "GPIO_1"
 		(shape bidirectional)
-		(at 30.48 38.1 180)
+		(at 115.57 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1183,7 +1183,7 @@
 		)
 		(uuid "ae05e1a9-8bbc-439d-a7b6-d17031de973d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.7311 38.1 0)
+			(at 104.8211 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,7 +1195,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x20_Socket")
-		(at 67.31 60.96 180)
+		(at 152.4 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1204,7 +1204,7 @@
 		(fields_autoplaced yes)
 		(uuid "4565cbbc-fac7-42b3-8a48-ef9c4e094834")
 		(property "Reference" "J2"
-			(at 67.945 30.48 0)
+			(at 153.035 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1212,7 @@
 			)
 		)
 		(property "Value" "Conn_01x20_Socket"
-			(at 67.945 33.02 0)
+			(at 153.035 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 60.96 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1229,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 60.96 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1238,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x20, script generated"
-			(at 67.31 60.96 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1317,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 32.9955 43.18 180)
+		(at 118.0855 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1325,7 +1325,7 @@
 		(dnp no)
 		(uuid "a50de5f9-3e78-4cb9-833e-463a8d7983dc")
 		(property "Reference" "#FLG02"
-			(at 32.9955 45.085 0)
+			(at 118.0855 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,7 +1334,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 30.48 48.26 0)
+			(at 115.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,7 +1342,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 32.9955 43.18 0)
+			(at 118.0855 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +1351,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 32.9955 43.18 0)
+			(at 118.0855 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1360,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 32.9955 43.18 0)
+			(at 118.0855 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,7 +1382,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 33.02 40.64 0)
+		(at 118.11 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1390,7 +1390,7 @@
 		(dnp no)
 		(uuid "a8f17c3d-3f63-492c-84dc-e36d03758b59")
 		(property "Reference" "#FLG01"
-			(at 33.02 38.735 0)
+			(at 118.11 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1399,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 18.796 40.64 0)
+			(at 103.886 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,7 +1407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 40.64 0)
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1416,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 40.64 0)
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +1425,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 33.02 40.64 0)
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,7 +1447,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x20_Socket")
-		(at 41.91 58.42 0)
+		(at 127 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1455,7 +1455,7 @@
 		(dnp no)
 		(uuid "cc747d08-7753-47dc-8fec-78c9ccc0e337")
 		(property "Reference" "J1"
-			(at 33.02 28.702 0)
+			(at 118.11 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +1464,7 @@
 			)
 		)
 		(property "Value" "Conn_01x20_Socket"
-			(at 33.02 31.242 0)
+			(at 118.11 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +1473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 58.42 0)
+			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +1482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 58.42 0)
+			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1491,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x20, script generated"
-			(at 41.91 58.42 0)
+			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

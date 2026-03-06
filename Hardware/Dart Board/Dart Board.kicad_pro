@@ -625,6 +625,10 @@
     [
       "903efdef-076c-4652-98a8-7ce1d4f31a0f",
       "ADC"
+    ],
+    [
+      "279380b7-53a9-4f2d-bd87-6b493a13a204",
+      "Piezo sensors"
     ]
   ],
   "text_variables": {}

@@ -53,6 +53,48 @@
 		)
 	)
 	(sheet
+		(at 152.654 90.17)
+		(size 21.336 17.018)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "279380b7-53a9-4f2d-bd87-6b493a13a204")
+		(property "Sheetname" "Piezo sensors"
+			(at 152.654 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "piezo.kicad_sch"
+			(at 152.654 107.7726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Dart Board"
+				(path "/1d6d0dd6-dd3e-4fbe-b34b-7dc303157c7e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 97.155 26.035)
 		(size 62.23 35.56)
 		(exclude_from_sim no)
