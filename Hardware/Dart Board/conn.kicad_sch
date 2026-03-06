@@ -1173,22 +1173,22 @@
 	)
 	(global_label "GPIO_1"
 		(shape bidirectional)
-		(at 20.32 38.1 0)
+		(at 30.48 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ae05e1a9-8bbc-439d-a7b6-d17031de973d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.0689 38.1 0)
+			(at 19.7311 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
