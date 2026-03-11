@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IEEE_OPS2")(type "KiCad")(uri "C:/Users/larry/Documents/PCB_Design/OPS2-Dartboard/Libraries/ESP32 Dev Board V1.0 - Library/libraries/IEEE_OPS2.kicad_sym")(options "")(descr ""))
+)
