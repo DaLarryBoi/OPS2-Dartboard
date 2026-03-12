@@ -445,6 +445,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -561,6 +686,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 99.06) (xy 121.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f1e94c-7c02-471b-a093-779b5d3e5bff")
+	)
+	(wire
+		(pts
 			(xy 132.08 69.85) (xy 153.67 69.85)
 		)
 		(stroke
@@ -588,6 +723,26 @@
 			(type default)
 		)
 		(uuid "1d58d9b2-0aad-40bc-bf1d-163ef6091520")
+	)
+	(wire
+		(pts
+			(xy 104.14 96.52) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331eaf3e-ef1e-4bf8-b20f-96b60e802d41")
+	)
+	(wire
+		(pts
+			(xy 104.14 101.6) (xy 121.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2c2076-80ab-4808-97d4-12abc61b43fd")
 	)
 	(wire
 		(pts
@@ -699,7 +854,7 @@
 		)
 		(uuid "ed2fe8c8-76e8-4bfe-8492-6d84a62e6770")
 	)
-	(global_label "GPIO_1"
+	(global_label "GPIO_44"
 		(shape bidirectional)
 		(at 152.4 99.06 0)
 		(fields_autoplaced yes)
@@ -721,7 +876,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_0"
+	(global_label "GPIO_43"
 		(shape bidirectional)
 		(at 152.4 96.52 0)
 		(fields_autoplaced yes)
@@ -733,7 +888,7 @@
 		)
 		(uuid "238712ce-627d-4f59-a6f5-2f400926db1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.1489 96.52 0)
+			(at 164.3584 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,29 +898,7 @@
 			)
 		)
 	)
-	(global_label "V_3.3"
-		(shape passive)
-		(at 132.08 60.96 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98f0e330-f747-4bcd-b5e5-01a62fe65ee0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 54.0061 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PIEZO_01"
+	(global_label "PIEZO_19"
 		(shape input)
 		(at 104.14 93.98 180)
 		(fields_autoplaced yes)
@@ -854,6 +987,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 132.08 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1917a21-3ddb-46b8-9b5b-746da64152a9")
+		(property "Reference" "#PWR024"
+			(at 132.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 132.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5bbea8d-3dc6-4fd9-9cac-91b09a461a22")
+		)
+		(instances
+			(project ""
+				(path "/1d6d0dd6-dd3e-4fbe-b34b-7dc303157c7e/903efdef-076c-4652-98a8-7ce1d4f31a0f"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 153.67 80.01 0)
 		(unit 1)
@@ -872,7 +1071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "10k"
 			(at 156.21 81.2799 0)
 			(effects
 				(font
@@ -881,7 +1080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 154.686 80.264 90)
 			(effects
 				(font
