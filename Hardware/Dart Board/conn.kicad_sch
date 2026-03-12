@@ -1022,8 +1022,8 @@
 		)
 	)
 	(no_connect
-		(at 57.15 102.87)
-		(uuid "a0185304-d0a5-4d1a-8ebc-726eb04b3bb6")
+		(at 57.15 95.25)
+		(uuid "8e657fba-8228-4275-8f60-03757992fae2")
 	)
 	(wire
 		(pts
@@ -1147,7 +1147,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 69.85) (xy 95.25 69.85)
+			(xy 90.17 82.55) (xy 95.25 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1217,7 +1217,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 72.39) (xy 95.25 72.39)
+			(xy 90.17 85.09) (xy 95.25 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1311,7 +1311,7 @@
 	)
 	(global_label "PIEZO_12"
 		(shape input)
-		(at 57.15 97.79 180)
+		(at 57.15 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1321,7 +1321,7 @@
 		)
 		(uuid "2719d4fa-3bc9-401d-bd13-13d503be630b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.2144 97.79 0)
+			(at 45.2144 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,7 +1355,7 @@
 	)
 	(global_label "PIEZO_13"
 		(shape input)
-		(at 57.15 100.33 180)
+		(at 57.15 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1365,7 +1365,7 @@
 		)
 		(uuid "3c2064c7-9ac8-4d44-b9c6-d1808ac1ec28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.2144 100.33 0)
+			(at 45.2144 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1487,7 @@
 	)
 	(global_label "GPIO_43"
 		(shape bidirectional)
-		(at 95.25 72.39 0)
+		(at 95.25 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1497,7 +1497,7 @@
 		)
 		(uuid "80975a55-86c5-4070-a04c-187cad1ece41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.2084 72.39 0)
+			(at 107.2084 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,7 +1553,7 @@
 	)
 	(global_label "PIEZO_11"
 		(shape input)
-		(at 57.15 95.25 180)
+		(at 57.15 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1563,7 +1563,7 @@
 		)
 		(uuid "a11b61dc-e168-4bfd-ae4a-5affd0b032de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.2144 95.25 0)
+			(at 45.2144 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,7 +1663,7 @@
 	)
 	(global_label "GPIO_44"
 		(shape bidirectional)
-		(at 95.25 69.85 0)
+		(at 95.25 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1673,7 +1673,7 @@
 		)
 		(uuid "e8514c03-a1cc-4a64-add2-5912c8ca8420")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.2084 69.85 0)
+			(at 107.2084 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
